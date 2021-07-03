@@ -11,7 +11,7 @@ fun subtractProductAndSum(arg: Int): Int {
         var digit = n % 10
         prod *= digit
         sum += digit
-        n = n / 10
+        n /= 10
     }
     return prod - sum
 }
